@@ -1,0 +1,13 @@
+[user]
+	name = raberaucht
+	email = raberaucht@gmail.com
+[color]
+	branch = auto
+	status = auto
+	diff = auto
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[push]
+	default = simple
