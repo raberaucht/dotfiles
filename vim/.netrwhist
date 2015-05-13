@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/benjamin/Code/django/birchcove/filebrowser/templates'
+let g:netrw_dirhist_2='/Users/benjamin/Code/django/birchcove/filebrowser/templates/filebrowser'
+let g:netrw_dirhist_3='/Users/benjamin/Code/django/birchcove'
+let g:netrw_dirhist_4='/Users/benjamin/Code/django/birchcove/filebrowser'
+let g:netrw_dirhist_5='/Users/benjamin/Code/django/django-trunk'
+let g:netrw_dirhist_6='/Users/benjamin/Code/django/django-trunk/django'
+let g:netrw_dirhist_7='/Users/benjamin/Code/django/django-trunk/django/core'
+let g:netrw_dirhist_8='/Users/benjamin/Desktop/daten_inhalt.tex'
