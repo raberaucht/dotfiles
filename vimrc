@@ -2,7 +2,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 :set laststatus=2
 
-"let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 1
 "let g:airline_detect_modified=1
 "let g:airline_detect_paste=1
 
