@@ -46,10 +46,6 @@ let g:airline_symbols.linenr = '⭡'
 
 "let g:airline_powerline_fonts = 1
 
-let g:airline_powerline_fonts = 1
-"let g:airline_detect_modified=1
-"let g:airline_detect_paste=1
-
 set nocompatible
 set encoding=utf8
 
