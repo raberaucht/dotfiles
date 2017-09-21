@@ -19,6 +19,7 @@ alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 
 alias la='ls -la'
 alias ls='ls -G'
+#alias python='python3'
 
 
 ########

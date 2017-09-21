@@ -19,4 +19,4 @@ Only vim and zsh-related dotfiles will be installed.
 - vim uses powerline, so install a [powerline compatible font](https://github.com/powerline/fonts)
 
 ###Using zsh on OSX
-If you want to use zsh on OSX, open System Preferences/Users & Groups/Advanced Options and change your shell to zsh. 
+If you want to use zsh on OSX, open System Preferences/Users & Groups/Advanced Options (right click on the user will give you the advanced options) and change your shell to zsh. 
