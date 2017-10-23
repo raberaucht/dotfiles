@@ -6,6 +6,7 @@ call plug#begin('~/dotfiles/vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
@@ -21,7 +22,9 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 " airline
 """""""""""""""""""""""""""""
 
-let g:airline_theme = 'luna'
+" 'luna' is also a great theme.
+let g:airline_theme = 'solarized'
+let g:airline_solarized_bg='dark'
 
 " populate g:airline_symbols
 let g:airline_powerline_fonts = 1
