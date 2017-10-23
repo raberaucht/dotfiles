@@ -1,3 +1,16 @@
+""""""""""""
+" vim plug "
+" """"""""""
+
+call plug#begin('~/dotfiles/vim/plugged')
+
+Plug 'scrooloose/nerdtree'
+
+
+"""""""""
+" ctrlp "
+"""""""""
+
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 :set laststatus=2
@@ -42,8 +55,8 @@ let g:airline_symbols.linenr = ''
 set nocompatible
 set encoding=utf8
 
-execute pathogen#infect()
-execute pathogen#helptags()
+"execute pathogen#infect()
+"execute pathogen#helptags()
 
 syntax enable
 filetype plugin on
