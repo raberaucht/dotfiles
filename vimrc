@@ -24,13 +24,6 @@ let g:airline_powerline_fonts = 1
 set nocompatible
 set encoding=utf8
 
-"""""""""""""""""""""""""
-" pathogen [deprecated] "
-" """""""""""""""""""""""
-
-"execute pathogen#infect()
-"execute pathogen#helptags()
-
 syntax enable
 filetype plugin on
 filetype indent on
