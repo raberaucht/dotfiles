@@ -1,6 +1,6 @@
 """"""""""""
 " vim plug "
-" """"""""""
+""""""""""""
 
 call plug#begin('~/dotfiles/vim/plugged')
 
@@ -10,9 +10,9 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-"""""""""""""""""""""""""""""
-" airline
-"""""""""""""""""""""""""""""
+"""""""""""
+" airline "
+"""""""""""
 
 " 'luna' is also a great theme.
 let g:airline_theme = 'solarized'
@@ -23,7 +23,7 @@ let g:airline_powerline_fonts = 1
 
 """"""""""""""""""""""""""""""""""
 " general setting that seem sane "
-" """"""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""
 
 set nocompatible
 
