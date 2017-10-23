@@ -56,14 +56,3 @@ set incsearch
 
 let mapleader=","
 
-"autocmd FileType python set ft=python.django " For SnipMate
-"autocmd FileType html set ft=html.javascript.htmldjango " For SnipMate
-
-"autocmd FileType python set omnifunc=pythoncomplete#Complete
-"autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-"autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-"autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-
-"autocmd Bufread,BufNewFile *.as set filetype=actionscript
-"autocmd BufNewFile,BufReadPost *.jade set filetype=jade
-
