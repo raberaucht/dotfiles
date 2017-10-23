@@ -67,19 +67,3 @@ let mapleader=","
 "autocmd Bufread,BufNewFile *.as set filetype=actionscript
 "autocmd BufNewFile,BufReadPost *.jade set filetype=jade
 
-"CoffeeTags support
-if executable('coffeetags')
-  let g:tagbar_type_coffee = {
-        \ 'ctagsbin' : 'coffeetags',
-        \ 'ctagsargs' : '',
-        \ 'kinds' : [
-        \ 'f:functions',
-        \ 'o:object',
-        \ ],
-        \ 'sro' : ".",
-        \ 'kind2scope' : {
-        \ 'f' : 'object',
-        \ 'o' : 'object',
-        \ }
-        \ }
-endif
