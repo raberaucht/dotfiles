@@ -5,7 +5,7 @@
 call plug#begin('~/dotfiles/vim/plugged')
 
 Plug 'scrooloose/nerdtree'
-
+Plug 'vim-airline/vim-airline'
 
 """""""""
 " ctrlp "
