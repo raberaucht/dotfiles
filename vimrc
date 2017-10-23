@@ -46,8 +46,13 @@ set softtabstop=2 "???
 set autoindent    "carry indent from the current line over to the new line
 set smartindent   "use smart indenting when staring a newline
 
+""""""""""
+" search "
+""""""""""
 set hlsearch
 set incsearch
 
+"""""""""""""
+" mapleader "
+"""""""""""""
 let mapleader=","
-
