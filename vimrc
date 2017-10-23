@@ -10,14 +10,6 @@ Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
-"""""""""
-" ctrlp "
-"""""""""
-
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-
-:set laststatus=2
-
 """""""""""""""""""""""""""""
 " airline
 """""""""""""""""""""""""""""
