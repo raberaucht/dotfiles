@@ -21,17 +21,16 @@ let g:airline_solarized_bg='dark'
 " populate g:airline_symbols
 let g:airline_powerline_fonts = 1
 
+""""""""""""""""""""""""""""""""""
+" general setting that seem sane "
+" """"""""""""""""""""""""""""""""
+
 set nocompatible
 set encoding=utf8
 
 syntax enable
 filetype plugin on
 filetype indent on
-
-noremap <C-h> <C-w>h
-noremap <C-j> <C-w>j
-noremap <C-k> <C-w>k
-noremap <C-l> <C-w>l
 
 let g:UltiSnipsListSnippets = '<f6>'
 "let g:UltiSnipsExpandTrigger = '<tab>'
