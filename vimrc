@@ -26,11 +26,20 @@ let g:airline_powerline_fonts = 1
 " """"""""""""""""""""""""""""""""
 
 set nocompatible
-set encoding=utf8
 
-syntax enable
-filetype plugin on
-filetype indent on
+"let's see how far we get without the encoding
+"set encoding=utf8
+
+"guarded syntax enabling
+if !exists("g:syntax_on")
+    syntax enable
+endif
+
+filetype plugin indent on
+
+"""""""""""""
+" ultisnips "
+" """""""""""
 
 let g:UltiSnipsListSnippets = '<f6>'
 "let g:UltiSnipsExpandTrigger = '<tab>'
