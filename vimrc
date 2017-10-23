@@ -1,7 +1,6 @@
 """"""""""""
 " vim plug "
 """"""""""""
-
 call plug#begin('~/dotfiles/vim/plugged')
 
 Plug 'scrooloose/nerdtree'
@@ -13,7 +12,6 @@ call plug#end()
 """""""""""
 " airline "
 """""""""""
-
 " 'luna' is also a great theme.
 let g:airline_theme = 'solarized'
 let g:airline_solarized_bg='dark'
@@ -24,7 +22,6 @@ let g:airline_powerline_fonts = 1
 """"""""""""""""""""""""""""""""""
 " general setting that seem sane "
 """"""""""""""""""""""""""""""""""
-
 set nocompatible
 
 "let's see how far we get without the encoding
@@ -35,16 +32,20 @@ if !exists("g:syntax_on")
     syntax enable
 endif
 
-filetype plugin indent on
+"turn on filetype detection and file specific handling and indentation
+filetype plugin indent on 
 
-set smarttab
-set expandtab
-set autoindent
-set smartindent
+""""""""""""""""""""""""
+" tabs and indentation "
+""""""""""""""""""""""""
+set smarttab      "make tabs smart?
+set expandtab     "make sure spaces are used, not tabs
+set tabstop=2     "???
+set shiftwidth=2  "indent width
+set softtabstop=2 "???
+set autoindent    "carry indent from the current line over to the new line
+set smartindent   "use smart indenting when staring a newline
 
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
 
 set tags=tags;/Users/benjamin
 
