@@ -37,14 +37,6 @@ endif
 
 filetype plugin indent on
 
-"""""""""""""
-" ultisnips "
-" """""""""""
-
-let g:UltiSnipsListSnippets = '<f6>'
-"let g:UltiSnipsExpandTrigger = '<tab>'
-let g:UltiSnipsJumpForwardTrigger = '<tab>'
-
 set smarttab
 set expandtab
 set autoindent
