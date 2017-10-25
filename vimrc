@@ -6,6 +6,8 @@ call plug#begin('~/dotfiles/vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'sirver/ultisnips'
+Plug 'honza/vim-snippets'
 
 call plug#end()
 
