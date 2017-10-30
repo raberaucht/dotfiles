@@ -9,6 +9,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'tpope/vim-fugitive'
+Plug 'posva/vim-vue'
 
 call plug#end()
 
